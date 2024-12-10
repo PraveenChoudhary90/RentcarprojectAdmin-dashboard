@@ -51,14 +51,14 @@ async function Book() {
         body: JSON.stringify(data)
     });
 
-    alert("booking are confirm")
+    alert("booking is confirmed")
 
     // localStorage.setItem("data", JSON.stringify(data));
 
     // let storedData = localStorage.getItem("data");
     // console.log(storedData);
 
-    document.getElementById("booking").innerHTML = `
+    document.querySelector("#booking").innerHTML = `
         <h1>Thanks for booking your ticket!</h1>
          <h1>Your details are:</h1>
         
